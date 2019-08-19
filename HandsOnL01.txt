@@ -1,0 +1,49 @@
+Anthony Mack
+Bethel Tech
+Lesson 1 Hands On Assignment
+
+The purpose of the instructions below are to describe to the reader the steps necessary to properly separate the pink,
+green and yellow jelly beans into the 3 cups. Each cup will only contain one color jelly bean and the quantities will be
+so that the cup on the left will contain the smallest amount of jelly beans and the cup on the right will contain the most.
+Also, the final stipulation is that the cups cannot be moved and the jelly beans can only be placed either in the cups or
+in the bag.
+
+Directions:
+
+1. Get a blank sheet of paper.
+2. Position the paper so that it's in a portrait layout.
+3. Draw two vertical lines down the piece of paper from top to bottom. Space the lines such that there are 3 evenly sized
+   whitespace columns on the paper.
+4. At the top of the left column write the word 'Pink'.
+5. At the top of the center column write the word 'Green'.
+6. At the top of the right column write the word 'Yellow'.
+7. Remove one jelly bean from the bag.
+8. If the jelly bean is 'pink', place it into the cup on the left. If the jelly bean is 'green', place it into the cup in 
+   the center. If the jelly bean is 'yellow', place it into the cup on the right.
+9. If the jelly bean from step 8 was 'pink', draw a small vertical mark under the 'pink' column on the piece of paper. If
+   the jelly bean from step 8 was 'green', draw a small vertical mark under the 'green' column on the piece of paper. If
+   the jelly bean from step 8 was 'yellow', draw a small vertical mark under the 'yellow' column on the piece of paper.
+10. Repeat steps 7-9 until all the jelly beans have been removed from the bag and placed into the appropriate cup.
+11. Count the total number of marks under the 'Pink' column on the piece of paper.
+12. Count the total number of marks under the 'Green' column on the piece of paper.
+13. Count the total number of marks under the 'Yellow' column on the piece of paper.
+14. Compare the total number of marks of the 'Pink' column to the total number of marks in the 'Green' column. If the total
+    number of marks under the 'Green' column is less than the total number of marks under the 'Pink' column proceed to
+    step 15. If not, compare total number of marks of the 'Pink' column to the total number of marks in the 'Yellow'
+    column. If the total number of marks in the 'Yellow' column is less than than the total number of marks in the 'Pink'
+    column proceed to step 16. If not, then the exercise is complete and steps 15 and 16 can be ignored.
+15. Remove all the 'pink' jelly beans from the left cup and place into the bag. Then, compare the total number of marks 
+    under the 'Yellow' column to the total number of marks under the 'Green' column. If the total number of marks under the
+    'Yellow' column is less than the total number of marks under the 'Green' column then remove all the 'yellow' jelly beans 
+    from the cup on the right and place them into the cup on the left. Then remove all the 'pink' jelly beans from the bag
+    and place them into the cup on the right. If not, then remove all the 'green' jelly beans from the cup in the center and
+    place them into the cup on the left. Finally, compare the total number of marks under the 'Yellow' column to the total
+    number of marks under the 'Pink' column. If the total number of marks under the 'Yellow' column is less than the total
+    number of marks under the 'Pink' column, remove all the 'yellow' jelly beans from the cup on the right and place them
+    into the cup in the center. Then, remove all the 'pink' jelly beans from the bag and place them into the cup on the right.
+    If not, then remove all the 'pink' jelly beans from the bag and place them into the cup in the center.
+16. Remove all the 'pink' jelly beans from the left cup and place into the bag. Remove all the 'yellow' jelly beans from 
+    the cup on the right and place them into the cup on the left. Then, remove all the 'green' jelly beans from the cup in
+    the center and place them into the cup on the right. Then, remove all the 'pink' jelly beans from the bag and place 
+    them into the cup in the center.
+
