@@ -1,0 +1,3 @@
+#Git Practice
+9:40 PM 7/28/2019
+*Creating and practicing interfacing with the CLI and Git using a basic text file.
