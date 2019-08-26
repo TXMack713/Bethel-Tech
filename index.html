@@ -1,15 +1,85 @@
 <!DOCTYPE html>
 <html lang='en'>
     <head>
-        <title>FrontEnd Foundations Lesson 9 HandsOn</title>
+        <title>Anthony Mack's Webpage</title>
+        <meta charset='utf=8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!-- <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-w+8Gqjk9Cuo6XH9HKHG5t5I1VR4YBNdPt/29vwgfZR485eoEJZ8rJRbm3TR32P6k" 
+        crossorigin="anonymous"> -->
+
+        <link href='Lesson10Style.css' type='text/css' rel='stylesheet'>
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/slate/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-FBPbZPVh+7ks5JJ70RJmIaqyGnvMbeJ5JQfEbW0Ac6ErfvEg9yG56JQJuMNptWsH" 
+        crossorigin="anonymous">        
     </head>
 
     <body>
-        <h1>The Great Albert Einstein</h1>
-        <p id='name'></p>
-        <p id='birthday'></p>
-        <button type='button' id='myButton'>Learn About Einstein</button>
-        <div id='project'></div>
-        <script src='L09HandsOn-script.js' type='text/javascript'></script>
+        <div class='container wrapper'>
+            <div class='container'>
+                <div class='col' id='banner'>
+                    <header>
+                        <h1>Anthony T. Mack</h1>
+                        <h4>Full Stack Developer</h4>
+                    </header>
+
+                    <br>
+                </div>
+
+                <div class='row' id='me'>
+                    <div class='col'>
+                        <img src='\images\my_pic.png' class='img-fluid rounded' id='head_shot'>
+                    </div>
+                    <div class='col col-sm-6' id='bio'>
+                        Hi! Welcome to my webpage! I'm a native Texan
+                        currently living in Wisconsin with my gorgeous wife Lisa
+                        and our four amazing tiny tots! I'm tech enthusiast who is
+                        making the transition from Mechanical Engineering to Software
+                        Development. I enjoy spending time with my family and friends, cool walks
+                        in the evenings, great food and taking in beautiful scenery. Thank you
+                        for taking the time to stop by and visit my page, please feel
+                        free to poke around and learn more. Be blessed!
+                    </div>
+                </div>
+
+                <br>
+
+                <div class='container'>
+                    <div id='profile_intro'>
+                        <div class='row'>
+                            <div class='col-sm-6'><h5>To learn more about my work experiences and projects click on the icons below:</h5></div>
+                            <div class='col-sm-6'><h5>My skillset curently includes the following:</h5></div>
+                        </div>
+                        <div class='row' id='public_profiles'>
+                            <div class='col-3 profiles' id='linkedin'>
+                                <a target='_blank' href='https://www.linkedin.com/in/anthony-mack-993367108/' class='list-group-row'><img class='logos' src="/images/icons8-linkedin-48.png"></a>
+                            </div>
+                            <div class='col-3 profiles' id='github'>
+                                <a target='_blank' href='https://github.com/TXMack713' class='list-group-row'><img class='logos' src="/images/icons8-github-48.png"></a>
+                            </div>
+                            <div class='col-6' id='skillset'>
+                            <h6>HTML5, CSS3, JavaScript, Bootstrap, CSS Flexbox and AJAX</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            </div><br>
+            <div class='container'>
+                <h5>My current repositories can be found below:</h5>
+                <!-- <button onclick='displayRepo()'>Get Repos</button> -->
+                <div id='repos'></div>
+            </div>
+            <div class='push'></div>
+        </div>
+        <footer class='footer container'>
+            <div class='row'>
+                <div class='col-6'><h6>For more information feel free to email me.</h6></div>
+                <div class='col-6'><img src='/images/email.png'>   mackattack713@gmail.com</div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src='Lesson10HandsOn.js'></script>
     </body>
 </html>

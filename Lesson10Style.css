@@ -1,0 +1,33 @@
+/* #head_shot {
+    max-width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+} */
+@media (min-width: 576px) {
+    #head_shot {
+        display: flex;
+        width: 350px;
+        height: auto;
+        justify-content: center;
+    }
+}
+.wrapper {
+    min-height: 100%;
+    /* margin-bottom: -100px; */
+    padding-bottom: 20px;
+}
+/* .push {
+    height: 50px;
+} */
+.footer{
+    height: 50px;
+    /* background-color: slategray; */
+}
+.logos:hover {
+    transform: scale(1.5);
+}
+.profiles {
+    display: flex;
+    justify-content: center;
+}
