@@ -1,12 +1,18 @@
-img {
-    width: 500px;
-    height: auto;
+body{
+    font-family: 'Segoe UI', sans-serif;
 }
 
-@media (max-width: 576px) {
-    img {
-        display: flex;
-        width: 250px;
-        height: auto;
-    }
+header {
+    background-color: aquamarine;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.input{
+    color: red;
 }

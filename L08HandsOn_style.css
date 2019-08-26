@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(228, 246, 250);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+}
+header {
+    background-color: rgb(218, 176, 40);
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    position: center;
+}
+label {
+    font-weight: bold;
+}
+input {
+    color: red;
+}

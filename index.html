@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>FrontEnd Foundations Lesson 7 HandsOn</title>
+        <title>jQuery Lesson 8 HandsOn</title>
+
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/flatly/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-T5jhQKMh96HMkXwqVMSjF3CmLcL1nT9//tCqu9By5XSdj7CwR0r+F3LTzUdfkkQf" crossorigin="anonymous">
+        <link rel='stylesheet' type='text/css' href='L08HandsOn_style.css'>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
     </head>
-    
+
     <body>
-        <div>
-            <h1>Please Enter Your First and Last Name</h1>
-            <label>First Name</label><input id='firstName' placeholder="First Name" required /></label>
-            <label>Last Name/<input id='lastName' placeholder="Last Name" required /></label>
-            <button onclick='regexChecker()'>Submit</button>
+        <div class='container'>
+            <header>Welcome to jQuery Lesson 8 HandsOn</header>
+
+            <p id='intro'>Click here to learn more about jQuery!</p>
+            <ul>
+                <li>JavaScript</li>
+                <li>C#</li>
+                <li>Java</li>
+                <li>Ruby</li>
+                <li>Python</li>
+            </ul>
+            <form>
+                <div class='form-group'>
+                        <label>First Name<input type='text' class='form-control' id='firstName' placeholder="First Name" required /></label>
+                        <label>Last Name<input type='text' class='form-control' id='lastName' placeholder="Last Name" required /></label>
+                </div>
+            </form>
         </div>
-        <script src='L07HandsOn_script.js'>
-        </script>
+        <script src='L08HandsOn_scripts.js'></script>
     </body>
 </html>
